@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #FFF9FB;
+    color: #333;
+}
+
+/* Navbar tetap menggunakan Montserrat */
+.navbar, .navbar * {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Judul dan teks */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'montserrat', serif;
+    color: #000000;
+}
+
+/* Navbar */
+.nav {
+    background-color: #c98f9d;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #FFD6E0, #FFF9FB);
+}
+
+/* Cards */
+.project-card, .achievement-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn {
+    background-color: #ff009d;
+    color: #fcfcfc;
+    font-family: 'montserrat';
+    font-weight: 600;
+}
+/*tulisan jaizah*/
+.custom-pink {
+    color: #FF69B4; /* Pink */
+}
+
+/*contact section*/
+.list-group-item,
+.form-label,
+.form-control {
+    font-family: 'montserrat';
+}
+
+/*agar ukuran card proporsional di setiap card*/
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/*space kanan kiri web*/
+.container{
+    max-width: 90%;
+    margin:auto;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #bf6cad;
+    border-bottom: 2px solid #874d6a;
+    padding-bottom: 5px;
+}
+
+.contact-container{
+display: flex;
+justify-content: space-between;
+align-items: start;
+gap: 40 px; /*jarak info kontak dan form*/
+}
+
+.contact-info{
+    width: 40%;
+}
+
+.contact-form{
+    width: 50%;
+}
+
+
